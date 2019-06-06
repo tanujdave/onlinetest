@@ -9,6 +9,7 @@ def moveEl(idx, i, v):
         if 'R' == S[idx] or 'B' == S[idx]:
             moveEl(idx, S[idx], v)
 
+
     if 'B' == i:
         del S[idx]
         S.insert(len(S), i)        
